@@ -30,15 +30,22 @@
   left: 16px;
 }
 
+.container{
+  background-color: black;
+  color: white;
+}
 
-.nav {
+nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1200px;
+            max-width: 1600px;
             margin: 0 auto;
-            /Margin: 0 auto;
+/*            /Margin: 0 auto;*/
             padding: 0 20px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
         }
 
         .logo {
@@ -76,13 +83,20 @@
 #navbar ul li a{
   display: inline;
   padding: 5px;
+
 }
 
 #navbar ul{
   list-style: none;
   float:right;
+
 }
 
 #navbar ul li{
   float: left;
+
+}
+
+#navbar{
+/*  background-color: black;*/
 }
